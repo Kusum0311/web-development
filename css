@@ -1,0 +1,136 @@
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #0f0607;
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.navbar a {
+    color: #120304;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #000;
+}
+
+/* Hero section styling */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.cta-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #100909;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #181414;
+}
+
+/* About section styling */
+.about-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+}
+
+.about-section p {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.about-image {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+/* Products section styling */
+.products-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+    color: #060606;
+}
+
+.products-section h2 {
+    font-size: 2rem;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #161414;
+    color: #fff;
+    font-size: 0.9rem;
+}
